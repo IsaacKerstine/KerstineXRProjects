@@ -40,8 +40,8 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - LeftHandOnly
+  - RightHandOnly
+  - RayInteractersOnly
+  - DirectinteractorsOnly
+  - Teleport
