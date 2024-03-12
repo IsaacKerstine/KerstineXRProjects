@@ -40378,8 +40378,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 3090916,
       "PayloadLength": 36234,
+=======
+      "PayloadOffset": 3180780,
+      "PayloadLength": 36577,
+>>>>>>> 86d433a2db8874597084ee573299daca5ae07dbf
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -40391,7 +40396,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 3127237,
+=======
+      "PayloadOffset": 3217444,
+>>>>>>> 86d433a2db8874597084ee573299daca5ae07dbf
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -40672,6 +40681,8 @@
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll",
         "Assets/CabenEscape/Scripts/CoreFeatures.cs",
         "Assets/CabenEscape/Scripts/DoorFeatures.cs",
+        "Assets/CabenEscape/Scripts/DrawerFeatures.cs",
+        "Assets/CabenEscape/Scripts/Enum.cs",
         "Assets/ThirdParty/FurnishedCabin/Scripts/MoveableObject.cs",
         "Assets/ThirdParty/FurnishedCabin/Scripts/MoveObjectController.cs",
         "Assets/ThirdParty/FurnishedCabin/Scripts/Player/PlayerLook.cs",
@@ -41180,8 +41191,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 3127333,
       "PayloadLength": 12620,
+=======
+      "PayloadOffset": 3217540,
+      "PayloadLength": 12801,
+>>>>>>> 86d433a2db8874597084ee573299daca5ae07dbf
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
