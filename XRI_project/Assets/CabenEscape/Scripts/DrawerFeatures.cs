@@ -27,6 +27,42 @@ public class DrawerFeatures : CoreFeatures
 
     void Start()
     {
-        
+        simpleInteractable?.selectEntered.AddListener((s) =>
+        {
+            if (!open)
+            {
+                OpenDrawer();
+            }
+        });
+    }
+    
+    private void OpenDrawer()
+    {
+        open = true;
+        PlayOnStart();
+        StartCoroutine(ProcessMotion());
+    }
+    
+    private IEnumerator ProcessMotion()
+    {
+        while (open)
+        {
+            if (featureDirection == FeatureDirection.Forward && drawerSlide.localPosition.z >= maxDistance)
+            {
+                drawerSlide.Translate(Vector3.forward * Time.deltaTime * speed);
+            }
+
+            else if (featureDirection == FeatureDirection.Backward && drawerSlide.localPosition.z <= maxDistance)
+            {
+                drawerSlide.Translate(-Vector3.forward * Time.deltaTime * speed);
+            }
+            
+            else
+            {
+                open = false;
+            }
+
+            yield return null;
+        }
     }
 }
