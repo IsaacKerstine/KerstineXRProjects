@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Caben Escape.unity
+    guid: f8fafb99a2df544449305c9b2568155d
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 285fe9c5bf9e32549a8ee0821343103c, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e9914123a94f2e246adff7d0b25b8e7e, type: 2}
